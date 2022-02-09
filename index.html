@@ -9,22 +9,23 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
 		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<title>Juice</title>
 </head>
 
 <body>
-	<header class="header">
+	<header id="header" class="header">
 		<div class="content">
 			<nav class="header_nav">
 				<div class="logo">
 					<p>Веселый <span>Сок</span></p>
 				</div>
 				<ul class="menu">
-					<li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">О продукте</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">Цены</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">Блог</a></li>
-					<li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
+					<li class="menu_item"><a href="#header" class="menu_link">Главная</a></li>
+					<li class="menu_item"><a href="#blockSecond" class="menu_link">Магазин</a></li>
+					<li class="menu_item"><a href="#feedback" class="menu_link">О нас</a></li>
+					<li class="menu_item"><a href="#blockanswer" class="menu_link">Ответы</a></li>
+					<li class="menu_item"><a href="#footer-content" class="menu_link">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="header_content">
@@ -36,7 +37,7 @@
 						</p>
 					</div>
 					<div class="header_photo">
-						<img src="img/product.webp" width="550px" height="550px" alt="">
+						<img src="img/product.webp" alt="тут сок:(">
 					</div>
 				</div>
 
@@ -51,11 +52,11 @@
 				<a href="#" class="header_social-items">
 					<i class="fab fa-vk"></i>
 				</a>
-				<a href="https://www.instagram.com/runtime.kz/" class="header_social-items">
+				<a target="blank" href="https://www.instagram.com/runtime.kz/" class="header_social-items">
 					<i class="fab fa-instagram"></i>
 				</a>
-				<a href="#" class="header_social-items">
-					<i class="fab fa-twitter"></i>
+				<a target="blank" href="https://wa.me/77024111198?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%BA" class="header_social-items">
+					<i class="fab fa-whatsapp"></i>
 				</a>
 				<a href="#" class="header_social-items">
 					<i class="fab fa-facebook"></i>
@@ -63,139 +64,107 @@
 			</div>
 		</div>
 	</header>
-	<div class="block_Second">
-		<div class="block-text">
-			<div class="title">
-				О продукте
-			</div>
-			<p class="text">Близких всегда хочется радовать чем-то новым и особенным! Juice обновился и готов удивлять.
-				Яркое сочетание спелых фруктов и насыщенный бархатный вкус обновленного Juice не оставят вас равнодушными.
-			</p>
-			<div class="about__row">
-				<div class="about__column">
-					<div class="item-about">
-						<div class="icon__about__icon"><img src="./img/ap.png" alt=""></div>
-						<div class="icon__about__titile"><a class="title-text" href="#">Апельсин</a></div>
-						<div class="icon__about__text">У сока апельсин яркий запоминающийся вкус - одним он напоминает манго с
-							привкусом дыни, другим смесь абрикосов и ананаса кому-то чудится клубника.</div>
-					</div>
-				</div>
-				<div class="about__column">
-					<div class="item-about">
-						<div class="icon__about__icon"><img src="./img/pngwing.com (2).png" alt=""></div>
-						<div class="icon__about__titile"><a class="title-text" href="#">Папайи</a></div>
-						<div class="icon__about__text">У сока папайи яркий запоминающийся вкус - одним он напоминает манго с
-							привкусом дыни, другим смесь абрикосов и ананаса кому-то чудится клубника.</div>
-					</div>
-				</div>
-				<div class="about__column">
-					<div class="item-about">
-						<div class="icon__about__icon"><img src="./img/pngwing.com.png" alt=""></div>
-						<div class="icon__about__titile"><a class="title-text" href="#">Авакадо</a></div>
-						<div class="icon__about__text">У сока авакадо яркий запоминающийся вкус - одним он напоминает манго с
-							привкусом дыни, другим смесь абрикосов и ананаса кому-то чудится клубника.</div>
-					</div>
-				</div>
-			</div>
+	<div id="blockSecond" class="blockSecond">
+		<div class="blocktitle">
+			<p class="blocktext">Магазин</p>
 		</div>
-	</div>
-	<div class="block-price">
-		<div class="content-price">
-			<div class="block-title">
-				Цены
+		<div class="block-image">
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice2.png" alt="тут сок:(">
+				<p class="image-text">Арбузный сок</p>
+				<a href="#"><p class="image-price">560₸</p></a>
 			</div>
-			<p class="blocktext">Близких всегда хочется радовать чем-то новым и особенным! Juice обновился и готов
-				удивлять.
-				Яркое сочетание спелых фруктов и насыщенный бархатный вкус обновленного Juice не оставят вас равнодушными.
-			</p>
-			<div class="block__row">
-				<div class="block__column">
-					<div class="block-about">
-						<div class="block__about__icon">Фрукты в корзине</div>
-						<div class="block__about__titile"><img src="./img/fruk.png" alt=""></div>
-						<div class="block__about__text"><a class="pricebutton" href="#">990 тг.</a></div>
-					</div>
-				</div>
-				<div class="block__column">
-					<div class="block-about">
-						<div class="block__about__icon">Соки в <br> корзине</div>
-						<div class="block__about__titile juice"><img src="./img/juice.png" alt=""></div>
-						<div class="block__about__text"><a class="pricebutton" href="#">690 тг.</a></div>
-					</div>
-				</div>
-				<div class="block__column">
-					<div class="block-about">
-						<div class="block__about__icon">Соки в <br> корзине</div>
-						<div class="block__about__titile juiceTwo"><img src="./img/juice2.png" alt=""></div>
-						<div class="block__about__text"><a class="pricebutton" href="#">890 тг.</a></div>
-					</div>
-				</div>
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice3.png" alt="тут сок:(">
+				<p class="image-text">Апельсиновый сок</p>
+				<a href="#"><p class="image-price">510₸</p></a>
 			</div>
-		</div>
-	</div>
-	<div class="block_slider">
-		<div class="slider-content">
-			<div class="slider-title">
-				Отзывы
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice4.png" alt="тут сок:(">
+				<p class="image-text">Лимонный сок</p>
+				<a href="#"><p class="image-price">860₸</p></a>
 			</div>
-			<p class="slider-text">
-				Приобретайте любимые напитки из супермаркета не выходя из дома.Доставка по Нур-Султану.Juice-крупнейший
-				маркетплейс Казахстана, в котором можно купить освежающие напитки.
-			</p>
-		</div>
-		<div class="slider__row">
-			<div class="slider__column">
-				<div class="slider-about">
-					<div class="slider__about__icon"><img src="./img/people.png" alt=""></div>
-					<div class="slider__about__titile">
-						Аймарал
-					</div>
-					<div class="slider__about__text">
-						У сока апельсин яркий запоминающийся вкус.
-					</div>
-				</div>
+			<div class="block-image-icon">
+				<img class="image1 " src="./img/juice5.png" alt="тут сок:(">
+				<p class="image-text">Мохитто сок</p>
+				<a href="#"><p class="image-price">960₸</p></a>
 			</div>
-			<div class="slider__column">
-				<div class="slider-about">
-					<div class="slider__about__icon"><img src="./img/people2.png" alt=""></div>
-					<div class="slider__about__titile">
-						Аян
-					</div>
-					<div class="slider__about__text">
-						У сока апельсин яркий запоминающийся вкус.
-					</div>
-				</div>
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice6.png" alt="тут сок:(">
+				<p class="image-text">Коктейль</p>
+				<a href="#"><p class="image-price">260₸</p></a>
 			</div>
-			<div class="slider__column">
-				<div class="slider-about">
-					<div class="slider__about__icon"><img src="./img/people2.png" alt=""></div>
-					<div class="slider__about__titile">
-						Саян
-					</div>
-					<div class="slider__about__text">
-						У сока апельсин яркий запоминающийся вкус.
-					</div>
-				</div>
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice7.png" alt="тут сок:(">
+				<p class="image-text">Коктейль</p>
+				<a href="#"><p class="image-price">760₸</p></a>
 			</div>
-		</div>
-	</div>
-	<footer class="footer">
-		<div class="footer-content">
-			<div class="footer-title">Покупайте только у нас! <br>
-				Лучшие напитки на рынке Казахстане!
+			<div class="block-image-icon">
+				<img class="image1" src="./img/juice8.png" alt="тут сок:(">
+				<p class="image-text">Коктейль</p>
+				<a href="#"><p class="image-price">360₸</p></a>
 			</div>
-			<div class="footer-image">
-				<a class="footer-image-link" target="blank" href="https://www.instagram.com/runtime.kz/">
-					<img src="./img/insta.png" alt="">
-				</a>
-			</div>
-		</div>
-		<div class="footer-text">
-			<p class="adres">Иманова 19, БЦ Алма-ата</p>
-			<p class="phone"><a class="phone-link" href="+77024111198">+7 702 411 1198</a></p>
-			<p class="mail">tanirbergen.zamanbeu@bk.ru</p>
 		</div>
 
+	</div>
+	<div id="feedback" class="feedback">
+		<div class="feedbacktext">
+			<p class="feedbacktitle">О нас</p>
+		</div>
+		<div class="feedback-image">
+			<p class="feedback-image-text">Близких всегда хочется радовать чем-то новым и особенным! Juice обновился и
+				готов удивлять. Яркое сочетание спелых фруктов и насыщенный бархатный вкус обновленного <br> Juice не
+				оставят вас
+				равнодушными.Приобретайте любимые напитки из супермаркета не выходя из дома.Доставка по
+				Нур-Султану. <br> Juice-крупнейший маркетплейс Казахстана, в котором можно купить освежающие напитки.
+				Сок является одниим из самых целебых напитков, дарит энергию и заряжает витаминами. Стакан сока в день и ты
+				готов свернуть горы!
+				У сока апельсин яркий запоминающийся вкус - одним он напоминает манго с привкусом дыни, другим смесь
+				абрикосов и ананаса кому-то чудится клубника.
+			</p>
+			<img class="feedback-icon" src="./img/feedbekJuice.png" alt="тут сок:(">
+		</div>
+	</div>
+	<div id="blockanswer" class="blockanswer">
+		<div class="block-answer-text">
+			<p class="answer-text-one">Ответы на популярные вопросы?</p>
+			<p class="answer-text-two">Как заказать?</p>
+			<p class="answer-text-three">Это текст. Нажмите здесь, чтобы отредактировать его и добавить свой текст. Сделать
+				это просто: нажмите «Редактировать текст» либо дважды нажмите на сам текст – и можете вставлять свое
+				содержимое и задавать шрифт. Это место отлично подходит, чтобы немного рассказать пользователям о себе.
+				Чтобы удалить этот текст, просто выберите его и нажмите иконку «Удалить»</p>
+			<p class="answer-text-two">Есть доставка?</p>
+			<p class="answer-text-three">Это текст. Нажмите здесь, чтобы отредактировать его и добавить свой текст. Сделать
+				это просто: нажмите «Редактировать текст» либо дважды нажмите на сам текст – и можете вставлять свое
+				содержимое и задавать шрифт. Это место отлично подходит, чтобы немного рассказать пользователям о себе.
+				Чтобы удалить этот текст, просто выберите его и нажмите иконку «Удалить»</p>
+				<p class="answer-text-two">Это безопасно?</p>
+			<p class="answer-text-three">Это текст. Нажмите здесь, чтобы отредактировать его и добавить свой текст. Сделать
+				это просто: нажмите «Редактировать текст» либо дважды нажмите на сам текст – и можете вставлять свое
+				содержимое и задавать шрифт. Это место отлично подходит, чтобы немного рассказать пользователям о себе.
+				Чтобы удалить этот текст, просто выберите его и нажмите иконку «Удалить»</p>
+				<p class="answer-text-two">Как оплатить биткоинами?</p>
+			<p class="answer-text-three">Это текст. Нажмите здесь, чтобы отредактировать его и добавить свой текст. Сделать
+				это просто: нажмите «Редактировать текст» либо дважды нажмите на сам текст – и можете вставлять свое
+				содержимое и задавать шрифт. Это место отлично подходит, чтобы немного рассказать пользователям о себе.
+				Чтобы удалить этот текст, просто выберите его и нажмите иконку «Удалить»</p>
+		</div>
+	</div>
+	<footer>
+		<div id="footer-content" class="footer-content">
+			<h3 id="header"><a class="juice-text" href="#">Juice</a></h3>
+			<p><a class="linkphone" href="+77024111198"> +7 702 411 1198</a></p>
+			<ul class="socials">
+				<li><a href="#"><i class="fab fa-vk"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a target="blank" href="https://wa.me/77024111198?text=%D0%A5%D0%BE%D1%87%D1%83%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D1%81%D0%BE%D0%BA"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a target="blank" href="https://www.instagram.com/runtime.kz/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2022 Tanirbergen. designed by <span>runtime</span> </p>
+		</div>
 	</footer>
 </body>
 
