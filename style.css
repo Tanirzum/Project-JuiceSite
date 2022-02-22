@@ -83,7 +83,7 @@ body{
 	margin-top: 30px;
 }
 .header_photo{
-	margin-left: 450px;
+	margin-left: 420px;
 	margin-top: -300px;
 }
 .wrapper{
@@ -351,6 +351,7 @@ footer{
 	background: #111;
 	padding-top: 40px;
 	color: #ffffff;
+	width: 100%;
 }
 .footer-content{
 	display: flex;
