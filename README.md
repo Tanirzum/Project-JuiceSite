@@ -1,2 +1,2 @@
 # Project-JuiseSite
- https://tanirzum.github.io/Project-JuiseSite/
+https://tanirzum.github.io/Project-JuiceSite/
